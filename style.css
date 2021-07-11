@@ -1,0 +1,46 @@
+
+
+.login-area {
+    margin-top: 90px;
+}
+.form-area {
+    box-shadow: 0px 0px 16px 1px #858585;
+    border-radius: 14px;
+    padding: 39px 105px;
+    margin: 39px 34px;
+}
+.nonedisplay {
+    display: none;
+    margin-top: 90px;
+}
+.mystyle1 {
+    background: #6a5acd;
+    color: white;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.mystyle2 {
+    background: #ffa07a;
+    color: white;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.mystyle3 {
+    background:#ffa500;
+    color: white;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.depositstyle {
+      box-shadow: 0px 0px 11px 1px #707070;
+      border-radius: 10px;
+      padding: 40px;
+  }
+.Withdrawstyle{
+  box-shadow: 0px 0px 11px 1px #707070;
+  border-radius: 10px;
+  padding: 40px;
+}

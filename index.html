@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Amdad Bank of Ld. </title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div id="login-area" class="login-area">
+            <h2 class="text-center">Welcome to AMDAD Bank </h2>
+            <div class="form-area">
+              <h5>Login</h5>
+              <br>
+              <input id="emailInput" class="form-control" type="text" name="" placeholder="Email">
+              <br>
+              <input id="passwordInput" class="form-control" type="password" name="" placeholder="password">
+              <br>
+              <button id="hideshowbtn" class="btn btn-success" type="button" name="button">Enter</button>
+              <p style="color:red;" id="textinnner"></p>
+            </div>
+        </div>
+        <div id="showdata" class="nonedisplay">
+          <div class="row mb-5">
+            <div class="col-md-4">
+                <div class="mystyle1">
+                  <h5>Deposit</h5>
+                  <h2>$<span id="Deposit">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mystyle2">
+                  <h5>Withdraw</h5>
+                  <h2>$<span id="Withdraw">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mystyle3">
+                  <h5>Balance</h5>
+                  <h2>$<span id="Balance">1240</span></h2>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+                <div class="depositstyle">
+                  <h4>Deposit</h4>
+                  <input id="DepoInput" class="form-control" type="text" name="" placeholder="$ amount you want to Deposit">
+                  <br>
+                  <button id="DepoBtn" class="btn btn-success" type="button" name="button">Deposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="Withdrawstyle">
+                  <h4>Withdraw</h4>
+                  <input id="withdrawInput" class="form-control" type="text" name="" placeholder="$ amount you want to Deposit">
+                  <br>
+                  <button id="withrawBtn" class="btn btn-primary" type="button" name="button">Deposit</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="script.js">
+    </script>
+  </body>
+</html>
